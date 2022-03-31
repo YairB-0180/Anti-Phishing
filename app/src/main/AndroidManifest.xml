@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AntiPhishing">
         <activity
+            android:name=".Seguridad"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".Bienvenida"
+            android:exported="false"
+            android:label="@string/title_activity_bienvenida"
+            android:theme="@style/Theme.AntiPhishing.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
